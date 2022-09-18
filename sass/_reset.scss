@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: #1d1d23;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width:100%;
+}
+a img{
+    min-width:75px;
+}
+ul li{
+    list-style-type: none;
+    a{
+        text-decoration: none;
+    }
+}
+.row{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
